@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.SecondActivity"/>
+        <activity android:name=".view.ThirdActivity"/>
     </application>
 
 </manifest>
