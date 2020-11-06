@@ -9,9 +9,12 @@ import com.company.androidmvc.model.Product;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ControllerActivity extends Application { //для глобальн. доступа
+public class Controller extends Application { //для глобальн. доступа
     private List<Product> myProduct = new ArrayList<>();
     private Cart cart = new Cart();
+
+    public Controller() {
+    }
 
     public Product getProduct(int position) {
         return myProduct.get(position);
